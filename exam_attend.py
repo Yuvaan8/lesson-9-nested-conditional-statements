@@ -1,5 +1,5 @@
-medical_cause = input('Did you cause the medical cause? (Yes or No)').strip().upper()
-if medical_cause == 'Yes':
+medical_cause = input('Did you cause the medical cause? (Y or N)').strip().upper()
+if medical_cause == 'Y':
     print('You are allowed to attend the exam.')
 else:
     attendance = int(input('What is the attendance '))
